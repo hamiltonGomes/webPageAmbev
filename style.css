@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Lato', Arial, sans-serif;
+line-height: 1.5;
+color: white;
+background-color: #21409A;
+}
+
+header {
+text-align: center;
+margin: 25px;
+border: 0px;
+padding: 0px;
+}
+
+h1{
+font-size: 54px;
+}
+
+h3{
+font-size: 24px;
+text-align: center;
+margin-bottom: 3%;
+}
+
+ol, h2 {
+font-size: 18px;
+}
+
+img {
+width: 100%;
+}
+
+button {
+text-decoration: none;
+border-radius: 50px;
+cursor: pointer;
+}
+
+.titles {
+font-size: 24px;
+list-style-type: none;
+}
+
+.descriptions {
+list-style-type: square;
+text-align: justify;
+margin-right: 10%;
+}
+
+.centerBlock {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+
+.leftSide {
+float: left;
+width: 40%;
+}
+
+.rightSide {
+float: right;
+width: 60%;
+}
+
+.buttonRight1, .buttonRight2, .buttonRight3 {
+width: 150px;
+height: 40px;
+font-size: 14px;
+}
+
+.distanceButtonsRight {
+padding-left: 70%;
+}
+
+.buttonRight1:hover {
+background-image: url("cervejas.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+}
+
+.buttonRight2:hover{ 
+background-image: url("chopes.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+}
+
+.buttonRight3:hover{ 
+background-image: url("refrigerantes.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+}
+
+.buttonsLeft{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.distanceButtonsLeft{
+margin: 15px;
+}
+
+.buttonLeft1 {
+background-color: white;
+color: #21409A;
+font-weight: bold;
+}
+
+.buttonLeft1:hover{
+background-color:#21409A;
+color:white;
+transition-delay: 100ms;
+}
+
+.buttonLeft2 {
+font-weight: bold;
+}
+
+.buttonLeft2:hover{
+background-color: white;
+color:#21409A;
+transition-delay: 100ms;
+}
+
+.buttonLeft2, .buttonLeft1 {
+width: 400px;
+height: 40px;
+margin: 0px;
+}
